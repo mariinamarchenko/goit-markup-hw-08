@@ -1,0 +1,50 @@
+.net-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+&__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+&__link:hover,
+&__link:focus {
+    background-color: #2196F3;
+}
+
+&__link:hover &__icon {
+    fill: #FFFFFF;
+}
+
+&__link:focus &__icon {
+    fill: #FFFFFF;
+}
+
+&__icon {
+    fill: #afb1b8;
+}
+
+&__icon:hover,
+&__icon:focus {
+    fill: #FFFFFF;
+}
+
+&__link {
+    transition-property: background-color, color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+&__icon {
+    transition-property: background-color, color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

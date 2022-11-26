@@ -1,0 +1,20 @@
+.footer {
+    background-color: #2F303A;
+}
+
+.footer {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: center;
+}
+
+.footer__address {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer__box {
+    display: flex;
+    align-items: baseline;
+}

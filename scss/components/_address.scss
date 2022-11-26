@@ -1,0 +1,87 @@
+.address {
+    display: block;
+}
+
+.address__logo-web {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+    letter-spacing: 0.03em;
+}
+
+.address__logo-studio {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+}
+
+.address__map:hover,
+.address__map:focus {
+    color: #2196F3;
+}
+
+.address__map {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+}
+
+.address__email:hover,
+.address__email:focus {
+    color: #2196F3;
+}
+
+.address__email {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+}
+
+.address__phone:hover,
+.address__phone:focus {
+    color: #2196F3;
+}
+
+.address__phone {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+}
+
+.address__logo {
+    text-decoration: none;
+}
+
+.address__item-map,
+.address__item-email {
+    margin-bottom: 9px;
+}
+
+.address__map,
+.address__email,
+.address__phone {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address__item-map {
+    margin-top: 20px;
+}

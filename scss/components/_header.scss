@@ -1,0 +1,15 @@
+.header {
+    border-bottom: 1px solid #ECECEC
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}

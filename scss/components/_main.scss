@@ -1,0 +1,69 @@
+.main {
+    background-color: #2F303A;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+}
+
+&__header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+&__button {
+    background-color: #2196F3;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    transition-property: background-color, color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+&__button:hover {
+    background-color: #FFFFFF;
+    color: var(--color-accent);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+&__header {
+    display: flex;
+    max-width: 696px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+&__button {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: transparent;
+    margin-top: 30px;
+}
