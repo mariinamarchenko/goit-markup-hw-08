@@ -6,6 +6,13 @@
     margin-bottom: 30px;
 }
 
+.net-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
 &__link {
     width: 44px;
     height: 44px;
@@ -14,37 +21,94 @@
     align-items: center;
     justify-content: center;
 }
+}
 
-&__link:hover,
-&__link:focus {
+.net-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+.net-list__link:hover,
+.net-list__link:focus {
     background-color: #2196F3;
 }
-
-&__link:hover &__icon {
-    fill: #FFFFFF;
 }
 
-&__link:focus &__icon {
+.net-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+.net-list__link:hover &__icon {
     fill: #FFFFFF;
 }
+}
 
-&__icon {
+.net-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+.net-list__link:focus .net-list__icon {
+    fill: #FFFFFF;
+}
+}
+
+.net-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+.net-list__icon {
     fill: #afb1b8;
 }
+}
 
-&__icon:hover,
-&__icon:focus {
+.net-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+.net-list__icon:hover,
+.net-list__icon:focus {
     fill: #FFFFFF;
 }
+}
 
-&__link {
+.net-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+.net-list__link {
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+}
 
-&__icon {
+.net-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+.net-list__icon {
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 }

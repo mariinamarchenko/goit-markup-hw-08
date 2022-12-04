@@ -8,17 +8,31 @@
     @media (min-width: 768px) {
         display: flex;
     }
-
+    
     @media (min-width: 1200px) {
         display: flex;
     }
-
 }
+
+.contact {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__email:hover,
 .contact__email:focus {
     color: #2196F3;
 }
+}
+
+.contact {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__email {
     font-family: 'Roboto';
@@ -29,11 +43,27 @@
     color: #757575;
     letter-spacing: 0.02em;
 }
+}
+
+.contact {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__phone:hover,
 .contact__phone:focus {
     color: #2196F3;
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__phone {
     font-family: 'Roboto';
@@ -44,10 +74,26 @@
     color: #757575;
     letter-spacing: 0.02em;
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__email, .contact__phone {
     margin-left: 10px;
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__email--icon-link,
 .contact__phone--icon-link {
@@ -55,6 +101,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
 }
 
 .email-address,
@@ -75,10 +122,18 @@
     color: #2196F3;
 }
 
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
+
 .contact__email:hover,
 .contact__email:focus {
     color: #2196F3;
     fill: #2196F3;
+}
 }
 
 .phone-number:hover,
@@ -86,37 +141,85 @@
     color: #2196F3;
 }
 
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
+
 .contact__phone:hover,
 .contact__phone:focus {
     color: #2196F3;
     fill: #2196F3;
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__email--icon-link:hover,
 .contact__email--icon-link:focus {
     color: #2196F3;
     fill: #2196F3;
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__phone--icon-link:hover,
 .contact__phone--icon-link:focus {
     color: #2196F3;
     fill: #2196F3;
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__email--icon:focus,
 .contact__email--icon:hover {
     fill: #2196F3;
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__phone--icon:focus,
 .contact__phone--icon:hover {
     fill: #2196F3;
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__email--icon-link,
 .contact__phone--icon-link {
     text-decoration: none;
+}
 }
 
 .contact {
@@ -128,15 +231,38 @@
     padding-inline-start: 0px;
 }
 
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
+
 .contact__email--icon-link,
 .contact__phone--icon-link {
     fill: #757575;
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__email,
 .contact__phone {
     display: flex;
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__email--icon-link .email-address,
 .contact__phone--icon-link .phone-number {
@@ -144,10 +270,19 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 344px;
+    padding-left: 0;
 
 .contact__email--icon-link,
 .contact__phone--icon-link {
     transition-property: color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 }

@@ -2,6 +2,9 @@
     margin-left: 93px;
 }
 
+.mailing {
+    margin-left: 93px;
+
 .mailing__header {
     font-family: 'Roboto';
     font-style: normal;
@@ -13,6 +16,10 @@
     color: #FFFFFF;
     margin-bottom: 20px;
 }
+}
+
+.mailing {
+    margin-left: 93px;
 
 .mailing__textarea {
     width: 358px;
@@ -28,7 +35,12 @@
     resize: none;
     overflow: hidden;
 }
+}
+
+.mailing {
+    margin-left: 93px;
 
 .mailing__form {
     display: flex;
+}
 }

@@ -2,14 +2,35 @@
     border-bottom: 1px solid #ECECEC
 }
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+
 .header__container {
     display: flex;
     align-items: center;
 }
+}
+
+.header {
+    border-bottom: 1px solid #ECECEC;
 
 .header__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
+}
+}
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+
+.header__menu {
+    background: #FFFFFF;
+    border: transparent;
+
+@media (min-width: 768px) {
+    display: none;
+}
+}
 }

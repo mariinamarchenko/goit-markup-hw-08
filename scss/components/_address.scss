@@ -2,6 +2,9 @@
     display: block;
 }
 
+.address {
+    display: block;
+
 .address__logo-web {
     font-family: Raleway;
     font-weight: 700;
@@ -10,6 +13,10 @@
     color: #2196F3;
     letter-spacing: 0.03em;
 }
+}
+
+.address {
+    display: block;
 
 .address__logo-studio {
     font-family: Raleway;
@@ -19,11 +26,19 @@
     color: #FFFFFF;
     letter-spacing: 0.03em;
 }
+}
+
+.address {
+    display: block;
 
 .address__map:hover,
 .address__map:focus {
     color: #2196F3;
 }
+}
+
+.address {
+    display: block;
 
 .address__map {
     font-family: 'Roboto';
@@ -34,11 +49,19 @@
     color: #FFFFFF;
     letter-spacing: 0.03em;
 }
+}
+
+.address {
+    display: block;
 
 .address__email:hover,
 .address__email:focus {
     color: #2196F3;
 }
+}
+
+.address {
+    display: block;
 
 .address__email {
     font-family: 'Roboto';
@@ -49,11 +72,19 @@
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
 }
+}
+
+.address {
+    display: block;
 
 .address__phone:hover,
 .address__phone:focus {
     color: #2196F3;
 }
+}
+
+.address {
+    display: block;
 
 .address__phone {
     font-family: 'Roboto';
@@ -64,15 +95,27 @@
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
 }
+}
+
+.address {
+    display: block;
 
 .address__logo {
     text-decoration: none;
 }
+}
+
+.address {
+    display: block;
 
 .address__item-map,
 .address__item-email {
     margin-bottom: 9px;
 }
+}
+
+.address {
+    display: block;
 
 .address__map,
 .address__email,
@@ -81,7 +124,12 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+}
+
+.address {
+    display: block;
 
 .address__item-map {
     margin-top: 20px;
+}
 }

@@ -8,6 +8,15 @@
     padding-bottom: 32px;
 }
 
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 .site-nav__studio {
     font-family: 'Roboto';
     position: relative;
@@ -19,6 +28,16 @@
     letter-spacing: 0.02em;
     padding-bottom: 32px;
 }
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 .site-nav__studio {
     &::after {
@@ -32,16 +51,46 @@
     bottom: 0;
 }
 }
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 .site-nav__portfolio:hover,
 .portfolio-link:focus {
     color: #2196F3;
 }
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 .site-nav__contact:hover,
 .site-nav__contact:focus {
     color: #2196F3;
 }
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 .site-nav__portfolio {
     font-family: 'Roboto';
@@ -53,6 +102,16 @@
     letter-spacing: 0.02em;
     padding-bottom: 32px;
 }
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 .site-nav__contact {
     font-family: 'Roboto';
@@ -63,6 +122,16 @@
     color: #212121;
     letter-spacing: 0.02em;
 }
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 .site-nav__studio,
 .site-nav__contact,
@@ -70,4 +139,5 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
