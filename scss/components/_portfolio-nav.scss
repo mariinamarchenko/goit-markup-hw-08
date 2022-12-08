@@ -6,45 +6,15 @@
     margin-left: 93px;
     padding-top: 32px;
     padding-bottom: 32px;
-}
-
-.portfolio-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 .portfolio-nav__contact:hover,
 .portfolio-nav__contact:focus {
     color: #2196F3;
 }
-}
-
-.portfolio-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 .portfolio-nav__studio:focus {
     color: #2196F3;
 }
-}
-
-.portfolio-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 .portfolio-nav__contact {
     font-family: 'Roboto';
@@ -55,31 +25,11 @@
     color: #212121;
     letter-spacing: 0.02em;
 }
-}
-
-.portfolio-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 .portfolio-nav__studio:hover,
 .studio-link:focus {
     color: #2196F3;
 }
-}
-
-.portfolio-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 .portfolio-nav__studio {
     font-family: 'Roboto';
@@ -90,16 +40,6 @@
     color: #212121;
     letter-spacing: 0.02em;
 }
-}
-
-.portfolio-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 .portfolio-nav__portfolio {
     font-family: 'Roboto';
@@ -112,16 +52,6 @@
     letter-spacing: 0.02em;
     padding-bottom: 32px;
 }
-}
-
-.portfolio-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 .portfolio-nav__portfolio {
     &::after {
@@ -135,32 +65,12 @@
     bottom: 0;
 }
 }
-}
-
-.portfolio-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 .portfolio-nav__portfolio, .portfolio__contact {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-}
-
-.portfolio-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 .portfolio-nav__studio {
     transition-property: color;

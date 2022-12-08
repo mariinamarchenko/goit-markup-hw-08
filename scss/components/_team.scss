@@ -2,12 +2,6 @@
     background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
-}
-
-.team {
-    background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .team__header {
     font-family: 'Roboto';
@@ -17,12 +11,6 @@
     color: #212121;
     letter-spacing: 0.03em;
 }
-}
-
-.team {
-    background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .team__member-name {
     font-family: 'Roboto';
@@ -32,12 +20,6 @@
     color: #212121;
     letter-spacing: 0.03em;
 }
-}
-
-.team {
-    background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .team__member-role {
     font-family: 'Roboto';
@@ -46,78 +28,43 @@
     color: #757575;
     letter-spacing: 0.03em;
 }
-}
-
-.team {
-    background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .team__header {
     text-align: center;
     border-radius: nullpx;
     margin-bottom: 50px;
 }
-}
-
-.team {
-    background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .team__cards {
-    // flex-direction: column;
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: center;
+
+    @media (max-width: 480px) {
+        flex-direction: column;
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 }
-
-//  @media (min-width: 768px) {
-//      display: flex;
-//  }
-
-//  @media (min-width: 1200px) {
-//      display: flex;
-//  }
-}
-
-.team {
-    background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .team__member-intro {
     padding-top: 30px;
 }
-}
-
-.team {
-    background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .team__member-name {
     text-align: center;
 }
-}
-
-.team {
-    background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .team__member-role {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0;
 }
-}
-
-.team {
-    background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .team__cards-item {
     background-color: #FFFFFF;

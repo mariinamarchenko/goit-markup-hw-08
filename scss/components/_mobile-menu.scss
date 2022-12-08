@@ -3,8 +3,8 @@
     top: 0;
     left: 0;
     display: none;
-    width: 100%;
-    height: 100%;
+    width: 480px;
+    height: 796px;
     background-color: var(--color-background);
     padding-top: 48px;
     padding-left: 40px;
@@ -18,5 +18,99 @@
     position:absolute;
     top: 10px;
     right: 10px;
+}
+
+.mobile-menu__studio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+
+.mobile-menu__portfolio, .mobile-menu__contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+.mobile-menu__contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.mobile-menu__phone {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    text-decoration: none;
+    margin-top: 302px;
+    padding-left: 0px;
+}
+
+.mobile-menu__email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    margin-top: 32px;
+    padding-left: 0px;
+}
+
+.site-nav__contact-list {
+    display: flex;
+    gap: 20px;
+    margin-top: 64px;
+    padding-left: 0px;
+}
+
+.site-nav__contact {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.mobile-menu__close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile-menu__close-button:focus .mobile-menu__close-icon {
+    fill: #2196F3;
+}
+
+.mobile-menu__close-button:hover .mobile-menu__close-icon {
+    fill: #2196F3;
 }
 } 

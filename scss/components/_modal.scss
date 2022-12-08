@@ -12,22 +12,6 @@
     animation-duration: 1000ms;
     padding-left: 40px;
     padding-top: 40px;
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__close-button {
     position: absolute;
@@ -46,62 +30,14 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__close-button:focus .modal__close-icon {
     fill: #2196F3;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__close-button:hover .modal__close-icon {
     fill: #2196F3;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__header {
     font-family: 'Roboto';
@@ -118,22 +54,6 @@
     border-radius: nullpx;
     padding-left: 0;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__header {
     display: flex;
@@ -142,22 +62,6 @@
     margin-right: 40px;
     padding-top: 0px;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__contact-form-label {
     display: block;
@@ -170,63 +74,15 @@
     letter-spacing: 0.01em;
     color: #757575;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__contact-form-control {
     position: relative;
     margin-top: 4px;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__contact-form-control:focus-within &__contact-form-icon {
     fill: var(--color-accent);
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__contact-form-input {
     width: 448px;
@@ -236,42 +92,10 @@
     border-radius: 4px;
     outline: none;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__contact-form-input:focus {
     border: 1px solid #2196F3;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__contact-form-icon {
     position: absolute;
@@ -279,22 +103,6 @@
     left: 12px;
     transform: translateY(-50%);
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__contact-form-textarea {
     width: 448px;
@@ -309,22 +117,6 @@
     margin-bottom: 20px;
     resize: none;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__checkbox-terms {
     display: flex;
@@ -342,63 +134,15 @@
     letter-spacing: 0.03em;
     color: #757575;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__checkbox-terms-link {
     color: #2196F3;
     padding-left: 3px;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__checkbox-terms-input {
     appearance: none;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__checkbox-terms-label {
     position: relative;
@@ -409,22 +153,6 @@
     justify-content: center;
     align-items: center;
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__checkbox-terms-label {
     &::before {
@@ -439,22 +167,6 @@
     content: '';
 }
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__checkbox-terms-label {
     &::after {
@@ -474,22 +186,6 @@
     content: '';
 }
 }
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    animation-name: scale;
-    animation-duration: 1000ms;
-    padding-left: 40px;
-    padding-top: 40px;
 
 .modal__checkbox-terms-input:checked+.modal__checkbox-terms-label::after {
     opacity: 1;

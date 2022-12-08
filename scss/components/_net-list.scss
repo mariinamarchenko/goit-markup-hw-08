@@ -4,14 +4,6 @@
     gap: 10px;
     margin-top: 16px;
     margin-bottom: 30px;
-}
-
-.net-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
-    margin-bottom: 30px;
 
 &__link {
     width: 44px;
@@ -21,90 +13,34 @@
     align-items: center;
     justify-content: center;
 }
-}
-
-.net-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
-    margin-bottom: 30px;
 
 .net-list__link:hover,
 .net-list__link:focus {
     background-color: #2196F3;
 }
-}
-
-.net-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
-    margin-bottom: 30px;
 
 .net-list__link:hover &__icon {
     fill: #FFFFFF;
 }
-}
-
-.net-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
-    margin-bottom: 30px;
 
 .net-list__link:focus .net-list__icon {
     fill: #FFFFFF;
 }
-}
-
-.net-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
-    margin-bottom: 30px;
 
 .net-list__icon {
     fill: #afb1b8;
 }
-}
-
-.net-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
-    margin-bottom: 30px;
 
 .net-list__icon:hover,
 .net-list__icon:focus {
     fill: #FFFFFF;
 }
-}
-
-.net-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
-    margin-bottom: 30px;
 
 .net-list__link {
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-}
-
-.net-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
-    margin-bottom: 30px;
 
 .net-list__icon {
     transition-property: background-color, color, fill;

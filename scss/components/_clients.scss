@@ -1,11 +1,6 @@
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__header {
     font-family: 'Roboto';
@@ -17,39 +12,32 @@
     letter-spacing: 0.03em;
     color: #212121;
 }
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__header {
     margin-bottom: 50px;
 }
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__list {
     display: flex;
     gap: 30px;
-}
-}
 
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    @media (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    @media (min-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}
 
 .clients__item {
     width: calc((100% - 150px) / 6);
 }
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__link {
     width: 170px;
@@ -61,69 +49,34 @@
     justify-content: center;
     border-radius: 5px;
 }
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__icon {
     fill: #afb1b8;
 }
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__link:hover,
 .clients__link:focus {
     border: 1px solid #2196F3;
 }
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__icon:hover,
 .clients__icon:focus {
     fill: #2196F3;
 }
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__link:hover .clients__icon {
     fill: #2196F3;
 }
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__link:focus .clients__icon {
     fill: #2196F3;
 }
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__link {
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-}
-
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
 .clients__icon {
     transition-property: background-color, color, fill;
