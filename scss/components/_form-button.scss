@@ -21,8 +21,12 @@
     transition-property: background-color, color, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: 125px;
+    margin-left: 12px;
     margin-bottom: 40px;
+
+    @media (max-width: 480px) {
+        margin-top: 20px;
+    }
 
 .form-button:hover,
 .form-button:focus {

@@ -1,0 +1,59 @@
+.form-button-mailing {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 713px;
+  background: #188CE8;
+  border-radius: 4px;
+  border: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #FFFFFF;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  -webkit-transition-property: background-color, color, -webkit-box-shadow;
+  transition-property: background-color, color, -webkit-box-shadow;
+  transition-property: background-color, color, box-shadow;
+  transition-property: background-color, color, box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 12px;
+  margin-bottom: 40px;
+}
+.form-button-mailing .form-button-mailing:hover,
+.form-button-mailing .form-button-mailing:focus {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.form-button-mailing .form-button-mailing__icon {
+  margin-left: 10px;
+}
+.form-button-mailing .form-button-mailing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 12px;
+}
+@media (max-width: 480px) {
+  .form-button-mailing .form-button-mailing {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=form-button-mailing.css.map */

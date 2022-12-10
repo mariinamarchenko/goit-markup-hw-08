@@ -231,6 +231,19 @@ p ul {
   color: #FFFFFF;
   letter-spacing: 0.03em;
 }
+@media (max-width: 480px) {
+  .address .address__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .address .address__map:hover,
 .address .address__map:focus {
   color: #2196F3;
@@ -464,6 +477,8 @@ p ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 30px;
 }
 @media (min-width: 768px) {
@@ -481,8 +496,6 @@ p ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     gap: 30px;
   }
 }
@@ -716,14 +729,33 @@ p ul {
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 1200px) {
+  .footer .footer__address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
 }
 .footer .footer__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 1200px) {
+  .footer .footer__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }
 
 .form-button {
@@ -760,8 +792,13 @@ p ul {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 125px;
+  margin-left: 12px;
   margin-bottom: 40px;
+}
+@media (max-width: 480px) {
+  .form-button {
+    margin-top: 20px;
+  }
 }
 .form-button .form-button:hover,
 .form-button .form-button:focus {
@@ -810,7 +847,7 @@ p ul {
   background: #FFFFFF;
   border: transparent;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .header .header__menu {
     display: none;
   }
@@ -846,6 +883,11 @@ p ul {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
+@media (max-width: 480px) {
+  .mailing .mailing__header {
+    margin-top: 60px;
+  }
+}
 .mailing .mailing__textarea {
   width: 358px;
   height: 50px;
@@ -862,9 +904,19 @@ p ul {
   overflow: hidden;
 }
 .mailing .mailing__form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
+}
+@media (min-width: 768px) {
+  .mailing .mailing__form {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .mailing .mailing__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .main {
@@ -981,7 +1033,7 @@ p ul {
   letter-spacing: 0.02em;
   color: #2196F3;
   text-decoration: none;
-  margin-bottom: 35px;
+  margin-bottom: 35.71px;
 }
 .mobile-menu .mobile-menu__portfolio, .mobile-menu .mobile-menu__contact {
   font-family: "Roboto";
@@ -992,7 +1044,7 @@ p ul {
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
-  margin-top: 35px;
+  margin-bottom: 32px;
 }
 .mobile-menu .mobile-menu__contact {
   font-family: "Roboto";
@@ -1064,8 +1116,8 @@ p ul {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1076,6 +1128,18 @@ p ul {
           animation-duration: 1000ms;
   padding-left: 40px;
   padding-top: 40px;
+}
+@media (max-width: 768px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 .modal .modal__close-button {
   position: absolute;
@@ -1755,6 +1819,11 @@ p ul {
 }
 .sm .sm__header {
   padding-bottom: 20px;
+}
+@media (max-width: 480px) {
+  .sm .sm__header {
+    margin-top: 60px;
+  }
 }
 .sm .sm__link {
   -webkit-transition-property: background-color, color, fill;

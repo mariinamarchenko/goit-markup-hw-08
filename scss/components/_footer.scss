@@ -8,10 +8,29 @@
 .footer__address {
     display: flex;
     margin-top: 20px;
+    align-items: center;
+
+    @media (min-width: 768px) {
+
+    }
+    
+    @media (min-width: 1200px) {
+        display: flex;
+        margin-top: 20px;
+    }
 }
 
 .footer__box {
-    display: flex;
-    align-items: baseline;
+    display: block;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        
+    }
+    
+    @media (min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+    }
 }
 }

@@ -46,6 +46,11 @@
 
 .sm__header {
     padding-bottom: 20px;
+
+    @media (max-width: 480px) {
+       margin-top: 60px;
+    }
+
 }
 
 .sm__link {

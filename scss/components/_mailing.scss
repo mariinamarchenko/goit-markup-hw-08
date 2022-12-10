@@ -1,7 +1,6 @@
 .mailing {
     margin-left: 93px;
-
-
+    
 .mailing__header {
     font-family: 'Roboto';
     font-style: normal;
@@ -12,6 +11,11 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
+
+    @media (max-width: 480px) {
+        margin-top: 60px;
+    }
+
 }
 
 .mailing__textarea {
@@ -30,6 +34,14 @@
 }
 
 .mailing__form {
-    display: flex;
+    display: block;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+
+    @media (min-width: 1200px) {
+        display: flex;
+    }
 }
 }

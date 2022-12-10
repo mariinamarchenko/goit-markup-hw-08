@@ -19,6 +19,7 @@
 
 .clients__list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 
     @media (min-width: 768px) {
@@ -29,10 +30,8 @@
 
     @media (min-width: 1200px) {
         display: flex;
-        flex-wrap: wrap;
         gap: 30px;
     }
-
 }
 
 .clients__item {

@@ -19,6 +19,20 @@
     letter-spacing: 0.03em;
 }
 
+.address__logo {
+
+    @media (max-width: 480px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (min-width: 1200px) {
+        
+    }
+
+}
+
 .address__map:hover,
 .address__map:focus {
     color: #2196F3;
