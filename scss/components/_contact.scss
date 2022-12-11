@@ -1,9 +1,17 @@
 .contact {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     margin-left: 344px;
     padding-left: 0;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+
+    @media (min-width: 1200px) {
+        display: flex;
+    }
 
 .contact__email:hover,
 .contact__email:focus {

@@ -553,9 +553,7 @@ p ul {
 }
 
 .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -564,6 +562,18 @@ p ul {
           justify-content: space-between;
   margin-left: 344px;
   padding-left: 0;
+}
+@media (min-width: 768px) {
+  .contact {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 .contact .contact__email:hover,
 .contact .contact__email:focus {
@@ -847,7 +857,7 @@ p ul {
   background: #FFFFFF;
   border: transparent;
 }
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .header .header__menu {
     display: none;
   }
