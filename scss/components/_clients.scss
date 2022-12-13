@@ -24,8 +24,8 @@
 
     @media (min-width: 768px) {
         display: flex;
+        flex-wrap: wrap;
         flex-basis: calc ((100% - 2 * 30) / 3);
-        align-items: center;
     }
 
     @media (min-width: 1200px) {

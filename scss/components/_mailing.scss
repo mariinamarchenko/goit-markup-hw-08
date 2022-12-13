@@ -55,10 +55,18 @@
 
     @media (max-width: 480px) {
         margin-bottom: 20px;
+        width: 450px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     @media (max-width: 768px) {
         margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 

@@ -36,10 +36,10 @@
 }
 
 .team__cards {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    justify-content: center;
+display: flex;
+align-items: center;
+gap: 30px;
+justify-content: center;
 
     @media (max-width: 480px) {
         flex-direction: column;
@@ -47,6 +47,7 @@
 
     @media (max-width: 768px) {
         display: flex;
+        flex-wrap: wrap;
         flex-basis: calc ((100% - 1 * 30) / 2);
     }
 }

@@ -31,6 +31,7 @@
     
     @media (max-width: 768px) {
         display: flex;
+        flex-wrap: wrap;
         flex-basis: calc((100% - 1 * 30px) / 2);
     }
 }
@@ -44,6 +45,17 @@
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
+
+    @media (min-width: 768px) {
+        width: 354px;
+        height: 120px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 270px;
+        height: 120px;
+    }
+
 }
 
 .advantages__title {
