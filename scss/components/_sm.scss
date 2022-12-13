@@ -6,6 +6,18 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+
+    @media (max-width: 480px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .sm__link {
