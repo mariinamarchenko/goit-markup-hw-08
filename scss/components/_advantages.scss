@@ -26,14 +26,13 @@
     display: flex;
 
     @media (max-width: 480px) {
-            flex-direction: column;
-        }
+        flex-direction: column;
+    }
     
     @media (max-width: 768px) {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
+        display: flex;
+        flex-basis: calc((100% - 1 * 30px) / 2);
+    }
 }
 
 .advantages__item {

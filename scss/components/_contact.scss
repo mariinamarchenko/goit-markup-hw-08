@@ -6,7 +6,9 @@
     padding-left: 0;
 
     @media (min-width: 768px) {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     @media (min-width: 1200px) {
@@ -26,6 +28,10 @@
     line-height: 1.14;
     color: #757575;
     letter-spacing: 0.02em;
+
+    // @media (min-width: 768px) {
+    //     margin-bottom: 10px;
+    // }
 }
 
 .contact__phone:hover,
@@ -45,6 +51,13 @@
 
 .contact__email, .contact__phone {
     margin-left: 10px;
+}
+
+.contact__phone {
+
+@media (min-width: 768px) {
+    margin-left: 0px;
+}
 }
 
 .contact__email--icon-link,
