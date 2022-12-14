@@ -3,6 +3,16 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
+    @media (max-width: 480px) {
+        flex-direction: column;
+    }
+    
+    @media (max-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: calc ((100% - 1 * 30) / 2);
+    }
+
 .team__header {
     font-family: 'Roboto';
     font-weight: 700;

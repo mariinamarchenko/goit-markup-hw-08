@@ -1,6 +1,26 @@
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 30px) / 2);
+    justify-content: center;
+    align-items: center;
+        
+        @media (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: calc((100% - 60px) / 3);
+            justify-content: center;
+            align-items: center;
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
+
+        @media (min-width: 1200px) {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
 
 .clients__header {
     font-family: 'Roboto';
@@ -19,13 +39,14 @@
 
 .clients__list {
     display: flex;
-    flex-wrap: wrap;
     gap: 30px;
-
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 30px) / 2);
+    
     @media (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
-        flex-basis: calc ((100% - 2 * 30) / 3);
+        flex-basis: calc((100% - 60px) / 3);
     }
 
     @media (min-width: 1200px) {
@@ -36,10 +57,22 @@
 
 .clients__item {
     width: calc((100% - 150px) / 6);
+
+    @media (max-width: 480px) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: calc((100% - 30px) / 2);
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: calc((100% - 60px) / 3);
+    }
 }
 
 .clients__link {
-    width: 170px;
+    width: 210px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 5px;
@@ -47,6 +80,16 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+
+    @media (min-width: 768px) {
+    width: 226px;
+    height: 92px;
+    } 
+
+    @media (min-width: 1200px) {
+    width: 170px;
+    height: 92px;
+    }
 }
 
 .clients__icon {
