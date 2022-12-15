@@ -221,9 +221,22 @@ p ul {
 }
 
 .address {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 70px;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .address {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -239,6 +252,11 @@ p ul {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .address {
+    display: block;
   }
 }
 .address .address__logo-web {
@@ -376,6 +394,9 @@ p ul {
 }
 @media (max-width: 480px) {
   .advantages .advantages__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -466,7 +487,6 @@ p ul {
     display: flex;
     width: 450px;
     height: 120px;
-    margin-right: 0px;
   }
 }
 @media (max-width: 768px) {
@@ -479,7 +499,6 @@ p ul {
     display: flex;
     width: 354px;
     height: 120px;
-    margin-right: 0px;
   }
 }
 
@@ -902,6 +921,10 @@ p ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 40px;
 }
 @media (min-width: 768px) {
   .footer .footer__address {
@@ -943,6 +966,7 @@ p ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-right: 40px;
   }
 }
 @media (max-width: 768px) {
@@ -1113,6 +1137,7 @@ p ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-left: 2px;
   }
 }
 @media (max-width: 768px) {
@@ -1150,12 +1175,20 @@ p ul {
     display: -ms-flexbox;
     display: flex;
     text-align: center;
-    margin-left: 0;
+    margin-right: 20px;
   }
 }
 @media (max-width: 768px) {
   .mailing .mailing__header {
     margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    margin-right: 80px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .mailing .mailing__textarea {
@@ -1175,11 +1208,12 @@ p ul {
 }
 @media (max-width: 480px) {
   .mailing .mailing__textarea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin-bottom: 20px;
     width: 450px;
     height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1187,6 +1221,7 @@ p ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-right: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -1201,6 +1236,7 @@ p ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-right: 80px;
   }
 }
 .mailing .mailing__form {
@@ -1255,6 +1291,26 @@ p ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 12px;
   margin-bottom: 40px;
+}
+@media (max-width: 480px) {
+  .mailing-button {
+    margin-right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .mailing-button {
+    margin-left: 80px;
+  }
 }
 .mailing-button .mailing-button:hover,
 .mailing-button .mailing-button:focus {
@@ -2235,7 +2291,7 @@ p ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-right: 20px;
+    margin-right: 180px;
   }
 }
 @media (max-width: 768px) {
@@ -2292,6 +2348,17 @@ p ul {
 .sm .sm__header {
   padding-bottom: 20px;
   margin-top: 32px;
+}
+@media (max-width: 480px) {
+  .sm .sm__header {
+    text-align: center;
+    margin-right: 180px;
+  }
+}
+@media (max-width: 768px) {
+  .sm .sm__header {
+    text-align: center;
+  }
 }
 .sm .sm__link {
   -webkit-transition-property: background-color, color, fill;

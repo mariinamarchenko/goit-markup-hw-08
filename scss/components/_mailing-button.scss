@@ -22,8 +22,20 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 12px;
-    // margin: 0 auto;
     margin-bottom: 40px;
+
+    @media (max-width: 480px) {
+        margin-right: 0px;
+        // margin-left: 125px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        margin-left: 80px;
+    }
 
     .mailing-button:hover,
     .mailing-button:focus {
@@ -38,5 +50,18 @@
         display: flex;
         justify-content: center;
         margin-left: 12px;
-    }
+
+        // @media (max-width: 480px) {
+        //     // margin-right: 90px;
+        //     margin-left: 125px;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     text-align: center;
+        // }
+
+        // @media (max-width: 768px) {
+        //     margin-left: 80px;
+        // }
+}
 }

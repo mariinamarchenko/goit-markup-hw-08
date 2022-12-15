@@ -40,13 +40,14 @@
     display: flex;
 
     @media (max-width: 480px) {
+        display: flex;
         flex-direction: column;
     }
     
     @media (max-width: 768px) {
         display: flex;
         flex-wrap: wrap;
-        flex-basis: calc((100% - 1 * 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
         margin-right: 0px;
     }
 }
@@ -102,14 +103,12 @@
         display: flex;
         width: 450px;
         height: 120px;
-        margin-right: 0px;
     }
 
     @media (max-width: 768px) {
         display: flex;
         width: 354px;
         height: 120px;
-        margin-right: 0px;
     }
 }
 }

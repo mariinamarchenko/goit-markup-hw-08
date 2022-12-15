@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    margin-right: 180px;
     }
 
     @media (max-width: 768px) {
@@ -61,12 +61,13 @@
     padding-bottom: 20px;
     margin-top: 32px;
 
-    @media (min-width: 480px) {
-    //    margin-top: 60px;
+    @media (max-width: 480px) {
+        text-align: center;
+        margin-right: 180px;
     }
 
-    @media (min-width: 768px) {
-    //    margin-top: 60px;
+    @media (max-width: 768px) {
+        text-align: center;
     }
 }
 
