@@ -11,13 +11,15 @@ margin-right: 70px;
         align-items: center;
         justify-content: center;
         text-align: center;
-    }  
-    
+    }
+
     @media (min-width: 1200px) {
-        display: block;
+        display: flex;
+        align-items: flex-start;
+        margin-right: 0;
+        text-align: left;
     }
     
-
 .address__logo-web {
     font-family: Raleway;
     font-weight: 700;

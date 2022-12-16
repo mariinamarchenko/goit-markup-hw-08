@@ -103,12 +103,14 @@
         display: flex;
         width: 450px;
         height: 120px;
+        width: 100%;
     }
 
     @media (max-width: 768px) {
         display: flex;
         width: 354px;
         height: 120px;
+        width: 100%;
     }
 }
 }
